@@ -254,6 +254,10 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   animation: cuadrado 2s infinite;
 }
 
+.shadow {
+  filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.7));
+}
+
 .aboutUs {
   padding-top: 100px;
   padding-bottom: 100px;

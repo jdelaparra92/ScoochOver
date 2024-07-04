@@ -16,3 +16,7 @@
     font-size: 2rem;
     animation: cuadrado 2s infinite;
 }
+
+.shadow{
+    filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.7));
+}
