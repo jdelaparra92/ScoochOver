@@ -1,0 +1,10 @@
+footer{
+@include flex;
+@include padding;
+justify-content: space-between;
+background-color: black;
+color: $primary;
+}
+footer > div{
+    width: 33%;
+}

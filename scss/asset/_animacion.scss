@@ -1,0 +1,19 @@
+@keyframes cuadrado {
+    0% {
+        font-size: 2rem;
+    }
+    50% {
+        font-size: 2.5rem;
+    }
+
+    100% {
+        font-size: 2rem;
+    }
+  }
+  
+.cuadradito{
+    font-size: 2rem;
+    animation-name: cuadrado;
+    animation-duration: 3s;
+    animation: 0.8s infinite;
+}

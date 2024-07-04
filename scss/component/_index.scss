@@ -1,0 +1,51 @@
+//seccion 1 //
+.aboutUs{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    @include padding;
+    @include flex;
+    gap: 40px;
+}
+
+.aboutUs > div{
+    width: 50%;
+}
+
+// fin seccion 1 //
+
+//seccion 2 //
+.servicios{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    @include padding;
+    @include flex;
+    gap: 40px;
+}
+
+.servicios .serviciosUno{
+    width: 45%;
+}
+.servicios .serviciosDos{
+    width: 55%;
+}
+
+// fin seccion 2 //
+//seccion 3 //
+.sergio{width: 100%;}
+
+// fin seccion 3 //
+
+//formulario//
+.formulario{
+    @include padding;
+    @include flex;
+    
+}
+.formulario > div{
+    width: 50%;
+    
+}
+.formulario form{
+    color:$primary;
+    
+}

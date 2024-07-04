@@ -1,0 +1,10 @@
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin padding {
+    padding-left: 15%;
+    padding-right: 15%;
+}

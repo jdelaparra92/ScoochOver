@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+body{
+    background-color: $fondo;
+}
+
+ul,li,ol,h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
