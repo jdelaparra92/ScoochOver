@@ -17,41 +17,49 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
 .tituloPrincipal {
   font-size: 4rem;
   color: #f5f6fc;
+  font-weight: 800;
 }
 
 .tituloPrincipalDos {
   font-size: 4rem;
   color: #6232ff;
+  font-weight: 800;
 }
 
 .tituloNombre {
   font-size: 3rem;
   color: #f5f6fc;
+  font-weight: 800;
 }
 
 .tituloNombreDos {
   font-size: 3rem;
   color: #6232ff;
+  font-weight: 800;
 }
 
 .tituloSecundario {
   font-size: 2rem;
   color: #f5f6fc;
+  font-weight: 600;
 }
 
 .tituloSecundarioDos {
   font-size: 2rem;
   color: #6232ff;
+  font-weight: 600;
 }
 
 .parrafo {
   font-size: 1.1rem;
   color: #f5f6fc;
+  font-weight: 300;
 }
 
 .parrafoDos {
   font-size: 1.1rem;
   color: #6232ff;
+  font-weight: 300;
 }
 
 .margenTop100 {
@@ -90,6 +98,10 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 20px;
 }
 
+.border {
+  border-radius: 15px;
+}
+
 .botonUno {
   padding: 15px 30px;
   background: #6232ff;
@@ -117,7 +129,7 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
 
 .botonDos:hover {
   background: #14141a;
-  color: #ceff1c;
+  color: #6232ff;
   border: 1px solid #6232ff;
 }
 
@@ -223,20 +235,19 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
 
 @keyframes cuadrado {
   0% {
-    font-size: 2rem;
+    top: 0px;
   }
   50% {
-    font-size: 2.5rem;
+    top: -10px;
   }
   100% {
-    font-size: 2rem;
+    top: 0px;
   }
 }
 .cuadradito {
+  position: relative;
   font-size: 2rem;
-  animation-name: cuadrado;
-  animation-duration: 3s;
-  animation: 0.8s infinite;
+  animation: cuadrado 2s infinite;
 }
 
 .aboutUs {
@@ -302,6 +313,10 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   justify-content: space-between;
   padding-left: 15%;
   padding-right: 15%;
+  background-color: #14141a;
+  position: sticky;
+  top: 0;
+  z-index: 60;
 }
 
 .headerLinks {
@@ -322,7 +337,7 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   transition: 0.6s;
 }
 
-.header a:hover {
+.header ul a:hover {
   color: #ceff1c;
 }
 
@@ -330,15 +345,32 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding-left: 15%;
   padding-right: 15%;
-  justify-content: space-between;
   background-color: black;
   color: #f5f6fc;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-footer > div {
+.footerF > div {
   width: 33%;
+}
+
+.footerF {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line {
+  width: 50%;
+  color: #f5f6fc;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

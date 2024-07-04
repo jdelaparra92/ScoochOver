@@ -8,3 +8,6 @@
     padding-left: 15%;
     padding-right: 15%;
 }
+@mixin border {
+    border-radius: 15px;
+}

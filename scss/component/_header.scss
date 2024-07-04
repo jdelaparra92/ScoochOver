@@ -4,6 +4,10 @@
     @include flex; 
     justify-content: space-between;
     @include padding; 
+    background-color: $fondo;
+    position: sticky;
+    top:0;
+    z-index: 60;
 
 }
 .headerLinks{
@@ -24,7 +28,7 @@
 
 }
 
-.header a:hover{
+.header ul a:hover{
     color:$terciary;
     
 }

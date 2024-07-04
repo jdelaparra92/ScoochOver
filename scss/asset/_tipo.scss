@@ -2,21 +2,25 @@
 .tituloPrincipal{
     font-size: 4rem;
     color: $primary;
+    font-weight: 800;
 }
 
 .tituloPrincipalDos{
     font-size: 4rem;
     color: $secondary;
+    font-weight: 800;
 }
 
 .tituloNombre{
     font-size: 3rem;
     color: $primary;
+    font-weight: 800;
 }
 
 .tituloNombreDos{
     font-size: 3rem;
     color: $secondary;
+    font-weight: 800;
 }
 
 // secundario //
@@ -24,10 +28,12 @@
 .tituloSecundario{
     font-size: 2rem;
     color: $primary;
+    font-weight: 600;
 }
 .tituloSecundarioDos{
     font-size: 2rem;
     color: $secondary;
+    font-weight: 600;
 }
 
 //parrafo //
@@ -35,10 +41,12 @@
 .parrafo{
     font-size: 1.1rem;
     color: $primary;
+    font-weight: 300;
 }
 .parrafoDos{
     font-size: 1.1rem;
     color: $secondary;
+    font-weight: 300;
 }
 
 
@@ -75,3 +83,6 @@
     margin-bottom: 20px;
 }
 
+.border{
+    @include border;
+}
