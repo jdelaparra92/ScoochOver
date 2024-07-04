@@ -102,6 +102,10 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   border-radius: 15px;
 }
 
+.paddingH {
+  padding: 0 30px;
+}
+
 .botonUno {
   padding: 15px 30px;
   background: #6232ff;
@@ -273,6 +277,7 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: space-between;
   gap: 40px;
 }
 
@@ -328,7 +333,7 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   border-radius: 30px;
   list-style: none;
   color: #f5f6fc;
-  padding: 15px;
+  padding: 15px 35px;
 }
 
 .header a {

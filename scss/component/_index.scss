@@ -19,6 +19,7 @@
     padding-bottom: 100px;
     @include padding;
     @include flex;
+    justify-content: space-between;
     gap: 40px;
 }
 
