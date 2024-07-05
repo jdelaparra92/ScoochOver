@@ -53,13 +53,13 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
 .parrafo {
   font-size: 1.1rem;
   color: #f5f6fc;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .parrafoDos {
   font-size: 1.1rem;
   color: #6232ff;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .margenTop100 {
@@ -258,6 +258,102 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.7));
 }
 
+.conocenos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #1e1e24;
+  gap: 60px;
+  color: #f5f6fc;
+  margin-top: 80px;
+  border-radius: 15px;
+  align-items: start;
+}
+
+.conocenosImg {
+  width: 20%;
+}
+
+.conocenos img {
+  width: 100%;
+}
+
+.conocenosSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: end;
+  gap: 30px;
+}
+
+main {
+  padding-left: 15%;
+  padding-right: 15%;
+  background: rgb(20, 20, 26);
+  background: linear-gradient(180deg, rgb(20, 20, 26) 49%, rgb(64, 66, 77) 93%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+main img {
+  width: 1200px;
+}
+
+.banner {
+  position: relative;
+}
+
+.cont1 {
+  background-image: url("../img/fondoVideo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px;
+  position: absolute;
+  top: -38px;
+  left: 375px;
+  width: 320px;
+  height: 320px;
+  filter: drop-shadow(0 0 0.75rem #6232ff);
+}
+
+.contVideo1 {
+  width: 240px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cont2 {
+  background-image: url("../img/fondoVideo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px;
+  position: absolute;
+  top: -6px;
+  left: 573px;
+  width: 320px;
+  height: 320px;
+  filter: drop-shadow(0 0 0.75rem #6232ff);
+}
+
+.videoUno {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .aboutUs {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -348,6 +444,10 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
 
 .header ul a:hover {
   color: #ceff1c;
+}
+
+.logo {
+  width: 200px;
 }
 
 footer {

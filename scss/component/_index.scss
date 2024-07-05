@@ -1,3 +1,93 @@
+
+// MAIN //
+.conocenos{
+    @include flex;
+    padding: 30px;
+    background-color: $fondoTres;
+    gap: 60px;
+    color: $primary;
+    margin-top: 80px;
+    border-radius: 15px;
+    align-items: start;
+}
+.conocenosImg{
+    width: 20%;
+
+}
+.conocenos img{
+ width: 100%
+}
+.conocenosSec{
+    @include flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 30px;
+}
+
+main{
+    @include padding;
+    background: rgb(20,20,26);
+    background: linear-gradient(180deg, rgba(20,20,26,1) 49%, rgba(64,66,77,1) 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+main img{
+    width: 1200px;
+}
+.banner{
+    position: relative;
+}
+.cont1{
+    background-image: url("../img/fondoVideo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    position: absolute;
+    top: -38px;
+    left: 375px;
+    width: 320px;
+    height: 320px;
+    filter: drop-shadow(0 0 0.75rem #6232ff);
+    
+
+}
+.contVideo1{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.cont2{
+    background-image: url("../img/fondoVideo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    position: absolute;
+    top: -6px;
+    left: 573px;
+    width: 320px;
+    height: 320px;
+    filter: drop-shadow(0 0 0.75rem #6232ff);
+}
+.videoUno{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+// Fin MAIN //
+
 //seccion 1 //
 .aboutUs{
     padding-top: 100px;
