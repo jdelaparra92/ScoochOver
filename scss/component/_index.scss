@@ -275,6 +275,12 @@ object-fit: cover;
 
 //formulario//
 .formulario{
+    background-image: url("../img/fondoCuatro.png");
+    background-color: $fondo;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 
     overflow-x: hidden;
     @include padding;

@@ -132,6 +132,10 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   padding: 0 30px;
 }
 
+.paddingDos {
+  padding: 60px 0px;
+}
+
 .textoCentrado {
   text-align: center;
 }
@@ -169,8 +173,8 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
 
 .carousel {
   position: relative;
-  padding-left: 220px;
-  padding-right: 220px;
+  padding-left: 250px;
+  padding-right: 200px;
 }
 @media screen and (max-width: 1240px) {
   .carousel {
@@ -194,7 +198,7 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   border-radius: 15px;
   color: #f5f6fc;
 }
-@media screen and (max-width: 1370px) {
+@media screen and (max-width: 1470px) {
   .carousel__item {
     height: 640px;
   }
@@ -646,6 +650,12 @@ main img {
 }
 
 .formulario {
+  background-image: url("../img/fondoCuatro.png");
+  background-color: #14141a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   overflow-x: hidden;
   padding-left: 15%;
   padding-right: 15%;
@@ -773,6 +783,7 @@ footer {
 @media screen and (max-width: 1240px) {
   .footerF {
     flex-direction: column;
+    gap: 35px;
   }
 }
 
