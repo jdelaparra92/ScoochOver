@@ -1,43 +1,75 @@
+body{
+    background-image: url("../img/fondoMain.png");
+    background-color: $fondo;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
 
+    
+}
 // MAIN //
 .conocenos{
-    @include flex;
+ 
     padding: 30px;
-    background-color: $fondoTres;
-    gap: 60px;
     color: $primary;
     margin-top: 80px;
     border-radius: 15px;
     align-items: start;
-}
-.conocenosImg{
-    width: 20%;
+    filter: drop-shadow(0 0 0.75rem $fondo);
 
 }
-.conocenos img{
- width: 100%
-}
+
+
 .conocenosSec{
     @include flex;
     flex-direction: column;
-    align-items: end;
-    gap: 30px;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
 }
 
 main{
     @include padding;
     background: rgb(20,20,26);
-    background: linear-gradient(180deg, rgba(20,20,26,1) 49%, rgba(64,66,77,1) 93%);
+    background-color: $fondo;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url("../img/fondoTres.png");
+    background-color: $fondo;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow-x: hidden;
+    @media screen and (max-width:650px) {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        }
+
 
 }
 main img{
     width: 1200px;
+    @media screen and (max-width:1240px) {
+    width:760px ;
+        
+    }
+    @media screen and (max-width:780px) {
+        width:400px ;
+            
+        }
+        @media screen and (max-width:780px) {
+            width:290px ;
+                
+            }
 }
 .banner{
     position: relative;
@@ -49,23 +81,51 @@ main img{
     background-repeat: no-repeat;
     padding: 40px;
     position: absolute;
-    top: -38px;
-    left: 375px;
-    width: 320px;
-    height: 320px;
-    filter: drop-shadow(0 0 0.75rem #6232ff);
+    top: -11px;
+    left: 357px;
+    width: 280px;
+    height: 280px;
+    filter: drop-shadow(8px 10px 12px #000000);
+    @media screen and (max-width:1240px) {
+        padding: 30px;
+        top: 3px;
+        left: 222px;
+        width: 180px;
+        height: 180px;
+            
+        }
+        @media screen and (max-width:780px) {
+            padding: 10px;
+            top: 3px;
+            left: 87px;
+            width: 70px;
+            height: 70px;
+                
+            }
     
 
 }
 .contVideo1{
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     border-radius: 50%;
     object-fit: cover;
+    @media screen and (max-width:1240px) {
+
+        width: 120px;
+        height: 120px;
+            
+        }
+        @media screen and (max-width:780px) {
+
+            width: 50px;
+            height: 50px;
+                
+            }
 
 }
 .cont2{
@@ -75,11 +135,26 @@ main img{
     background-repeat: no-repeat;
     padding: 40px;
     position: absolute;
-    top: -6px;
-    left: 573px;
-    width: 320px;
-    height: 320px;
-    filter: drop-shadow(0 0 0.75rem #6232ff);
+    top: 20px;
+    left: 560px;
+    width: 280px;
+    height: 280px;
+    filter: drop-shadow(8px 10px 12px #000000);
+    @media screen and (max-width:1240px) {
+        padding: 30px;
+        left: 347px;
+        width: 180px;
+        height: 180px;
+            
+        }
+        @media screen and (max-width:780px) {
+            padding: 10px;
+            left: 134px;
+            top:10px;
+            width: 70px;
+            height: 70px;
+                
+            }
 }
 .videoUno{
 width: 100%;
@@ -95,10 +170,24 @@ object-fit: cover;
     @include padding;
     @include flex;
     gap: 40px;
+    background: $fondo;
+    overflow-x: hidden;
+    @media screen and (max-width:1240px) {
+        flex-direction: column;
+            
+        }
+        @media screen and (max-width:650px) {
+            padding-left: 15px;
+            padding-right: 15px;
+    
+            }
 }
-
 .aboutUs > div{
     width: 50%;
+    @media screen and (max-width:1240px) {
+        width: 100%;
+            
+        }
 }
 
 // fin seccion 1 //
@@ -111,29 +200,99 @@ object-fit: cover;
     @include flex;
     justify-content: space-between;
     gap: 40px;
+
+        @media screen and (max-width:1240px) {
+        flex-direction: column;
+        justify-content: center;
+            
+        }
+        @media screen and (max-width:650px) {
+            padding-left: 15px;
+            padding-right: 15px;
+    
+            }
+
 }
 
 .servicios .serviciosUno{
     width: 45%;
+    @media screen and (max-width:1240px) {
+        width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
 }
 .servicios .serviciosDos{
     width: 55%;
+    @media screen and (max-width:1240px) {
+        width: 100%;
+
+
+        }
 }
 
 // fin seccion 2 //
 //seccion 3 //
-.sergio{width: 100%;}
+.sergio{width: 100%;
+    filter: drop-shadow(8px 10px 12px #000000);}
 
+.equipo{
+    overflow-x: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    @include padding;
+    @include flex;
+    gap: 40px;
+   
+    @media screen and (max-width:1240px) {
+        flex-direction: column;
+            
+        }
+        @media screen and (max-width:650px) {
+            padding-left: 15px;
+            padding-right: 15px;
+    
+            }
+}
+.equipo > div{
+    width: 50%;
+    @media screen and (max-width:1240px) {
+        width: 100%;
+            
+        }
+}
+.fondoCuatro{
+    background-image: url("../img/fondoCuatro.png");
+    background-color: $fondo;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
 // fin seccion 3 //
 
 //formulario//
 .formulario{
+
+    overflow-x: hidden;
     @include padding;
     @include flex;
+    @media screen and (max-width:650px) {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        }
     
 }
 .formulario > div{
     width: 50%;
+    @media screen and (max-width:650px) {
+        width: 100%;
+
+
+        }
     
 }
 .formulario form{

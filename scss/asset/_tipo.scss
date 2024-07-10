@@ -3,24 +3,41 @@
     font-size: 4rem;
     color: $primary;
     font-weight: 800;
+    @media screen and (max-width:650px) {
+        font-size: 2rem;
+
+        }
 }
 
 .tituloPrincipalDos{
     font-size: 4rem;
     color: $secondary;
     font-weight: 800;
+    @media screen and (max-width:650px) {
+        font-size: 2rem;
+
+        }
 }
 
 .tituloNombre{
     font-size: 3rem;
     color: $primary;
     font-weight: 800;
+    @media screen and (max-width:650px) {
+        font-size: 1.8rem;
+
+        }
 }
 
 .tituloNombreDos{
     font-size: 3rem;
     color: $secondary;
     font-weight: 800;
+    @media screen and (max-width:650px) {
+        font-size: 1.8rem;
+
+        }
+
 }
 
 // secundario //
@@ -29,11 +46,19 @@
     font-size: 2rem;
     color: $primary;
     font-weight: 600;
+    @media screen and (max-width:650px) {
+        font-size: 1.3rem;
+
+        }
 }
 .tituloSecundarioDos{
     font-size: 2rem;
     color: $secondary;
     font-weight: 600;
+    @media screen and (max-width:650px) {
+        font-size: 1.3rem;
+
+        }
 }
 
 //parrafo //
@@ -89,4 +114,8 @@
 
 .paddingH{
     padding: 0 30px;
+}
+
+.textoCentrado{
+    text-align: center;
 }

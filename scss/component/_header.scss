@@ -8,17 +8,35 @@
     position: sticky;
     top:0;
     z-index: 60;
+    @media screen and (max-width:1000px) {
+        flex-direction: column;
+        gap: 40px;
+        
+    }
+    @media screen and (max-width:650px) {
+        padding-left: 15px;
+        padding-right: 15px;
+        position: static;
+
+        }
 
 }
 .headerLinks{
-    @include flex;
     gap: 40px;
     background-color: $fondoTres;
     border-radius: 30px;
     list-style: none;
     color: $primary;
     padding: 15px 35px;
+    @media screen and (max-width:1000px) {
+        background-color: $fondo;
+        
+    }
     
+}
+.headerLinks ul{
+    gap: 40px;
+   
 }
 
 .header a{
@@ -35,4 +53,11 @@
 
 .logo{
     width: 200px;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler{
+    border: 1px solid $primary;
 }

@@ -2,22 +2,38 @@ footer{
 @include flex;
 flex-direction: column;
 @include padding;
-background-color: black;
+background-color: $fondo;
 color: $primary;
 padding-top: 80px;
 padding-bottom: 80px;
+
 }
 .footerF > div{
     width: 33%;
+    @media screen and (max-width:650px) {
+        width: 100%;
+
+
+        }
 }
 .footerF{
 
     width: 100%;
     @include flex;
     justify-content: space-between;
+    @media screen and (max-width:1240px) {
+        flex-direction: column;
+
+            
+    }
 
 }
+.sepadador{
+    @include flex;
+    width: 100%;
+}
 .line{
+
     width: 50%;
     color: $primary;
     margin-top: 30px;
