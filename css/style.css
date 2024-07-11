@@ -371,7 +371,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  overflow-x: hidden;
 }
 
 .conocenos {
@@ -417,6 +416,8 @@ main {
   main {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 100px;
+    height: auto;
   }
 }
 
