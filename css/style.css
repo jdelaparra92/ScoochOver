@@ -82,6 +82,12 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   font-weight: 200;
 }
 
+.parrafoB {
+  font-size: 1.5rem;
+  color: #f5f6fc;
+  font-weight: 400;
+}
+
 .parrafoDos {
   font-size: 1.1rem;
   color: #6232ff;
@@ -138,6 +144,11 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
 
 .textoCentrado {
   text-align: center;
+}
+
+.terciary {
+  color: #ceff1c;
+  font-weight: 600;
 }
 
 .botonUno {

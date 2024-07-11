@@ -68,6 +68,11 @@
     color: $primary;
     font-weight: 200;
 }
+.parrafoB{
+    font-size: 1.5rem;
+    color: $primary;
+    font-weight: 400;
+}
 .parrafoDos{
     font-size: 1.1rem;
     color: $secondary;
@@ -123,4 +128,9 @@
 
 .textoCentrado{
     text-align: center;
+}
+
+.terciary{
+    color: $terciary;
+    font-weight: 600;
 }
