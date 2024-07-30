@@ -82,6 +82,17 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   font-weight: 200;
 }
 
+.parrafoM {
+  font-size: 1.3rem;
+  color: #f5f6fc;
+  font-weight: 400;
+}
+@media screen and (max-width: 500px) {
+  .parrafoM {
+    font-size: 1rem;
+  }
+}
+
 .parrafoB {
   font-size: 1.5rem;
   color: #f5f6fc;
@@ -362,6 +373,10 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
 
 .shadow {
   filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.7));
+}
+
+.center {
+  text-align: center;
 }
 
 body {
@@ -767,6 +782,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: space-between;
   flex-direction: column;
   padding-left: 15%;
   padding-right: 15%;
@@ -811,6 +827,23 @@ footer {
   color: #f5f6fc;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.logoF {
+  width: 232px;
+}
+
+.flex-redes {
+  display: flex;
+  gap: 43px;
+}
+.flex-redes img {
+  width: 50px;
+  height: 50px;
+  fill: white;
+}
+.flex-redes svg {
+  fill: white;
 }
 
 /*# sourceMappingURL=style.css.map */
