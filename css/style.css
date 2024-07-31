@@ -33,13 +33,14 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
 }
 
 .tituloNombre {
-  font-size: 3rem;
-  color: #f5f6fc;
+  font-family: "Oswald", sans-serif;
+  font-size: 3.4rem;
+  color: #9da2b3;
   font-weight: 800;
 }
 @media screen and (max-width: 650px) {
   .tituloNombre {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 
@@ -52,6 +53,11 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   .tituloNombreDos {
     font-size: 1.8rem;
   }
+}
+
+.subTituloNombre {
+  color: #f5f6fc;
+  font-weight: 400;
 }
 
 .tituloSecundario {
@@ -117,6 +123,10 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   margin-top: 40px;
 }
 
+.margenTop20 {
+  margin-top: 20px;
+}
+
 .margenBot240 {
   margin-bottom: 240px;
 }
@@ -162,6 +172,11 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
   font-weight: 600;
 }
 
+.spanText {
+  color: #40424d;
+  font-weight: 600;
+}
+
 .botonUno {
   padding: 15px 30px;
   background: #6232ff;
@@ -173,22 +188,22 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
 }
 
 .botonUno:hover {
-  background: #14141a;
+  background: black;
   color: #6232ff;
 }
 
 .botonDos {
   padding: 15px 30px;
-  background: #14141a;
+  background: black;
   color: #f5f6fc;
-  border: 1px solid #14141a;
+  border: 1px solid black;
   transition: all 0.3s;
   border-radius: 30px;
   text-decoration: none;
 }
 
 .botonDos:hover {
-  background: #14141a;
+  background: black;
   color: #6232ff;
   border: 1px solid #6232ff;
 }
@@ -381,7 +396,7 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
 
 body {
   background-image: url("../img/fondoMain.png");
-  background-color: #14141a;
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -394,7 +409,7 @@ body {
   margin-top: 80px;
   border-radius: 15px;
   align-items: start;
-  filter: drop-shadow(0 0 0.75rem #14141a);
+  filter: drop-shadow(0 0 0.75rem black);
 }
 
 .conocenosSec {
@@ -411,7 +426,7 @@ main {
   padding-left: 15%;
   padding-right: 15%;
   background: rgb(20, 20, 26);
-  background-color: #14141a;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -419,7 +434,7 @@ main {
   padding-top: 70px;
   padding-bottom: 70px;
   background-image: url("../img/fondoTres.png");
-  background-color: #14141a;
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -560,7 +575,11 @@ main img {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  background: #14141a;
+  background-color: #000000;
+  background-image: url("../img/fondo/fondo22.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
   overflow-x: hidden;
 }
 @media screen and (max-width: 1240px) {
@@ -609,7 +628,7 @@ main img {
 }
 
 .servicios .serviciosUno {
-  width: 45%;
+  width: 400px;
 }
 @media screen and (max-width: 1240px) {
   .servicios .serviciosUno {
@@ -669,7 +688,7 @@ main img {
 
 .fondoCuatro {
   background-image: url("../img/fondoCuatro.png");
-  background-color: #14141a;
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -678,7 +697,7 @@ main img {
 
 .formulario {
   background-image: url("../img/fondoCuatro.png");
-  background-color: #14141a;
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -719,7 +738,7 @@ main img {
   justify-content: space-between;
   padding-left: 15%;
   padding-right: 15%;
-  background-color: #14141a;
+  background-color: black;
   position: sticky;
   top: 0;
   z-index: 60;
@@ -748,7 +767,7 @@ main img {
 }
 @media screen and (max-width: 1000px) {
   .headerLinks {
-    background-color: #14141a;
+    background-color: black;
   }
 }
 
@@ -786,7 +805,7 @@ footer {
   flex-direction: column;
   padding-left: 15%;
   padding-right: 15%;
-  background-color: #14141a;
+  background-color: black;
   color: #f5f6fc;
   padding-top: 80px;
   padding-bottom: 80px;

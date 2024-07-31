@@ -20,11 +20,12 @@
 }
 
 .tituloNombre{
-    font-size: 3rem;
-    color: $primary;
+    font-family: "Oswald", sans-serif;
+    font-size: 3.4rem;
+    color: $fondoCuatro;
     font-weight: 800;
     @media screen and (max-width:650px) {
-        font-size: 1.8rem;
+        font-size: 2rem;
 
         }
 }
@@ -38,6 +39,10 @@
 
         }
 
+}
+.subTituloNombre{
+    color: $primary;
+    font-weight: 400;
 }
 
 // secundario //
@@ -100,6 +105,9 @@
 .margenTop40{
     margin-top: 40px;
 }
+.margenTop20{
+    margin-top: 20px;
+}
 .margenBot240{
     margin-bottom: 240px;
 }
@@ -143,3 +151,8 @@
     color: $terciary;
     font-weight: 600;
 }
+.spanText{
+    color: $fondoDos;
+    font-weight: 600;
+}
+
