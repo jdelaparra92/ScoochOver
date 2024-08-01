@@ -181,6 +181,8 @@ object-fit: cover;
     overflow-x: hidden;
     @media screen and (max-width:1240px) {
         flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
             
         }
         @media screen and (max-width:650px) {
@@ -196,7 +198,21 @@ object-fit: cover;
             
         }
 }
-
+.aboutImg{
+display: flex;
+justify-content: center;
+align-items: center;
+@media screen and (max-width:1240px) {
+        
+    }
+}
+.aboutUs img{
+    width: 100%;
+    @media screen and (max-width:1024px) {
+        display: none;
+            
+        }
+}
 // fin seccion 1 //
 
 //seccion 2 //
@@ -211,6 +227,8 @@ object-fit: cover;
         @media screen and (max-width:1240px) {
         flex-direction: column;
         justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
             
         }
         @media screen and (max-width:650px) {
@@ -311,4 +329,21 @@ object-fit: cover;
 .formulario form{
     color:$primary;
     
+}
+
+.contactanosDos{
+    display: none;
+    @media screen and (max-width:991px) {
+        display: block;
+
+
+        }
+}
+
+.contactanosUno{
+    @media screen and (max-width:991px) {
+        display: none;
+
+
+        }
 }

@@ -118,6 +118,11 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
 .margenTop60 {
   margin-top: 60px;
 }
+@media screen and (max-width: 1240px) {
+  .margenTop60 {
+    margin-bottom: 30px;
+  }
+}
 
 .margenTop40 {
   margin-top: 40px;
@@ -130,9 +135,19 @@ ul, li, ol, h1, h2, h3, h4, h5, h6, p {
 .margenBot240 {
   margin-bottom: 240px;
 }
+@media screen and (max-width: 1240px) {
+  .margenBot240 {
+    margin-bottom: 90px;
+  }
+}
 
 .margenBot140 {
   margin-bottom: 140px;
+}
+@media screen and (max-width: 1240px) {
+  .margenBot140 {
+    margin-bottom: 60px;
+  }
 }
 
 .margenBot100 {
@@ -585,6 +600,8 @@ main img {
 @media screen and (max-width: 1240px) {
   .aboutUs {
     flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -603,6 +620,20 @@ main img {
   }
 }
 
+.aboutImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUs img {
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .aboutUs img {
+    display: none;
+  }
+}
+
 .servicios {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -618,6 +649,8 @@ main img {
   .servicios {
     flex-direction: column;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -729,6 +762,21 @@ main img {
   color: #f5f6fc;
 }
 
+.contactanosDos {
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  .contactanosDos {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .contactanosUno {
+    display: none;
+  }
+}
+
 .header {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -745,8 +793,9 @@ main img {
 }
 @media screen and (max-width: 1000px) {
   .header {
-    flex-direction: column;
-    gap: 40px;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -754,6 +803,11 @@ main img {
     padding-left: 15px;
     padding-right: 15px;
     position: static;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header {
+    flex-direction: column;
   }
 }
 
@@ -768,6 +822,7 @@ main img {
 @media screen and (max-width: 1000px) {
   .headerLinks {
     background-color: black;
+    padding: 0px 0px;
   }
 }
 
@@ -863,6 +918,10 @@ footer {
 }
 .flex-redes svg {
   fill: white;
+}
+
+.footerSubText {
+  color: #9da2b3;
 }
 
 /*# sourceMappingURL=style.css.map */

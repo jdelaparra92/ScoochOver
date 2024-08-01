@@ -100,6 +100,10 @@
 
 .margenTop60{
     margin-top: 60px;
+    @media screen and (max-width:1240px) {
+        margin-bottom: 30px;
+            
+        }
 }
 
 .margenTop40{
@@ -110,9 +114,17 @@
 }
 .margenBot240{
     margin-bottom: 240px;
+    @media screen and (max-width:1240px) {
+        margin-bottom: 90px;
+            
+        }
 }
 .margenBot140{
     margin-bottom: 140px;
+    @media screen and (max-width:1240px) {
+        margin-bottom: 60px;
+            
+        }
 }
 .margenBot100{
     margin-bottom: 100px;

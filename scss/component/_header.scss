@@ -9,8 +9,9 @@
     top:0;
     z-index: 60;
     @media screen and (max-width:1000px) {
-        flex-direction: column;
-        gap: 40px;
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         
     }
     @media screen and (max-width:650px) {
@@ -19,7 +20,10 @@
         position: static;
 
         }
-
+        @media screen and (max-width:500px) {
+            flex-direction: column;
+            
+        }
 }
 .headerLinks{
     gap: 40px;
@@ -30,6 +34,7 @@
     padding: 15px 35px;
     @media screen and (max-width:1000px) {
         background-color: $fondo;
+        padding: 0px 0px;
         
     }
     
